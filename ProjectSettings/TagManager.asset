@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CheckPoint
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -12,12 +14,12 @@ TagManager:
   - Water
   - UI
   - 
+  - Player
+  - Background
+  - Hedges
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Shadow
   - 
   - 
   - 
@@ -40,4 +42,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 48909403
+    locked: 0
+  - name: Shadow
+    uniqueID: 514195089
+    locked: 0
+  - name: Hedges
+    uniqueID: 2409525459
+    locked: 0
+  - name: Guns
+    uniqueID: 882716753
+    locked: 0
+  - name: Player
+    uniqueID: 2099916369
+    locked: 0
+  - name: UI
+    uniqueID: 1941678903
     locked: 0
