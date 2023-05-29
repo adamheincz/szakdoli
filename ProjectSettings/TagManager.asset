@@ -6,6 +6,9 @@ TagManager:
   tags:
   - CheckPoint
   - Bullet
+  - Mirror
+  - Gun
+  - MiniGame
   layers:
   - Default
   - TransparentFX
@@ -16,7 +19,7 @@ TagManager:
   - 
   - Player
   - Background
-  - Hedges
+  - UpperWalls
   - 
   - Ground
   - Shadow
@@ -46,17 +49,23 @@ TagManager:
   - name: Background
     uniqueID: 48909403
     locked: 0
-  - name: Shadow
-    uniqueID: 514195089
+  - name: Gem
+    uniqueID: 2522081883
     locked: 0
-  - name: Hedges
-    uniqueID: 2409525459
+  - name: Upperwall
+    uniqueID: 514195089
     locked: 0
   - name: Guns
     uniqueID: 882716753
     locked: 0
+  - name: HitboxWall
+    uniqueID: 2409525459
+    locked: 0
   - name: Player
     uniqueID: 2099916369
+    locked: 0
+  - name: LowerWall
+    uniqueID: 893310589
     locked: 0
   - name: UI
     uniqueID: 1941678903

@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5626635631685565062}
   - component: {fileID: 5626635631685565063}
   - component: {fileID: -7930180140025298644}
+  - component: {fileID: 6077638894769199460}
   m_Layer: 0
   m_Name: Gun
-  m_TagString: Untagged
+  m_TagString: Gun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 5626635631685565064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10, y: -0.34, z: -0.019909967}
-  m_LocalScale: {x: 0.07, y: 0.07, z: 0.07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 882716753
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8255c3e6c5a27d543934dafb57104c55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4edfac848c0b8274da0e4fd81b78fc43, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -97,5 +98,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db7aa8bb7abb87b4abc6f38592e5e520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 2821903651628766895, guid: d7f34bcf034720c429d143cc1c29e4ea, type: 3}
+  bulletPrefab: {fileID: 2821903651628766895, guid: d7f34bcf034720c429d143cc1c29e4ea, type: 3}
   lifeTime: 5
+--- !u!114 &6077638894769199460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5626635631685565064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0842fb17e6e4dcf47b876b83ccd7d955, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

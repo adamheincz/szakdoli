@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &137044620329456151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7935088487432434691}
+  - component: {fileID: 5506070794278649991}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7935088487432434691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137044620329456151}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.0203595, y: -0.2358635, z: 181.89008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5506070794278649991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137044620329456151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7d78960b1afe0e4b93250daae4d7b54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  miniGames:
+  - GhostHuntGame
+  - RacingGame
+  - ShooterGame
+  - TreasureHuntGame
+  playerPrefabs:
+  - {fileID: 6978854865170298304, guid: 0ced60c5029380a4391d78a273031640, type: 3}
+  - {fileID: 6190241332593583653, guid: 6cca8b4b42052054db0e2a4284f78236, type: 3}
+  - {fileID: 916796770363167548, guid: 5a4be1a471b73804192c667c4d660bdd, type: 3}
+  - {fileID: 1783755797293694337, guid: adbfde0b75a06f04d9088cb10b75adb1, type: 3}

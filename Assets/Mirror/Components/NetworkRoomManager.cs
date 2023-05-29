@@ -566,6 +566,7 @@ namespace Mirror
         /// <returns>A new GamePlayer object.</returns>
         public virtual GameObject OnRoomServerCreateGamePlayer(NetworkConnectionToClient conn, GameObject roomPlayer)
         {
+            Debug.Log("on_server_create_game_player");
             return null;
         }
 

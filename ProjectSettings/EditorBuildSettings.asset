@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/MobileController.unity
-    guid: 32069003534ef50469695775e75ddb96
+    path: Assets/Scenes/Menu.unity
+    guid: 35e3f1d2ae45b374fbd9feb537591e00
+  - enabled: 1
+    path: Assets/Scenes/Room.unity
+    guid: bec37d1eba96ea14a855d2bbc51b4f53
+  - enabled: 1
+    path: Assets/Scenes/MiniGames.unity
+    guid: 98960b7dcee730444ac73ac21e1da237
   m_configObjects: {}
